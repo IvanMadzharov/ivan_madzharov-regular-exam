@@ -12,7 +12,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: ivan_madzharov
     - name: Checkout the code
       uses: actions/checkout@v4
     - name: Use Node.js 20x
@@ -24,3 +23,5 @@ jobs:
       run: npm install
     - name: Execute the unit tests
       run: npm run test:unit
+
+# @ivan_madzharov
